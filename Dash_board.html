@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+<!-- Navbar -->
+<div class="bg-white shadow p-4 flex justify-between">
+
+<div class="space-x-4">
+<a href="Dash_board.html">Dashboard</a>
+<a href="Email_list.html">Emails</a>
+<a href="Alert_list.html">Alerts</a>
+</div>
+
+<a href="Login_page.html">Logout</a>
+
+</div>
+
+
+<!-- Cards -->
+<div class="grid grid-cols-3 gap-6 p-6">
+
+<div class="bg-white p-4 rounded shadow">
+<p class="text-gray-500">Total Scanned</p>
+<h2 class="text-3xl font-bold">1240</h2>
+</div>
+
+<div class="bg-white p-4 rounded shadow">
+<p class="text-gray-500">Alerts</p>
+<h2 class="text-red-500 text-3xl font-bold">12</h2>
+</div>
+
+<div class="bg-white p-4 rounded shadow">
+<p class="text-gray-500">Last Sync</p>
+<h2>2 minutes ago</h2>
+</div>
+
+</div>
+
+<div class="px-6">
+<button class="bg-blue-500 text-white px-4 py-2 rounded">
+Sync Now
+</button>
+</div>
+
+</body>
+</html>

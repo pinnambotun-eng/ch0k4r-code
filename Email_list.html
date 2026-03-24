@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Emails</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+<div class="bg-white shadow p-4 flex justify-between">
+
+<div class="space-x-4">
+<a href="Dash_board.html">Dashboard</a>
+<a href="Email_list.html">Emails</a>
+<a href="Alert_list.html">Alerts</a>
+</div>
+
+</div>
+
+
+<div class="p-6">
+
+<input class="border p-2 mb-4 w-full" placeholder="Search email">
+
+<table class="w-full bg-white shadow">
+
+<thead class="bg-gray-200">
+<tr>
+<th class="p-3">Date</th>
+<th>From</th>
+<th>Subject</th>
+<th>Intent</th>
+<th>Confidence</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr class="border-t">
+<td class="p-3">Mar 8</td>
+<td>Amazon</td>
+
+<td>
+<a href="Email_detail.html" class="text-blue-600">
+Order shipped
+</a>
+</td>
+
+<td class="text-blue-600">Promotion</td>
+<td>0.92</td>
+
+</tr>
+
+<tr class="border-t">
+<td class="p-3">Mar 8</td>
+<td>John</td>
+<td>
+<a href="Email_detail.html">Meeting tomorrow</a>
+</td>
+<td class="text-green-600">Work</td>
+<td>0.87</td>
+</tr>
+
+<tr class="border-t">
+<td class="p-3">Mar 7</td>
+<td>Unknown</td>
+<td>
+<a href="Email_detail.html">You won $1M</a>
+</td>
+<td class="text-red-500">Spam</td>
+<td>0.96</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</body>
+</html>
